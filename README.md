@@ -11,7 +11,7 @@ Take into account to check your sources for the appropiate permissions:
 
 ```sh
 $ git ls-tree HEAD
-git ls-files --stage
+$ git ls-files --stage
 ```
 
 If you find that a script does not have the right permissions you can set the appropiated permissions using the
