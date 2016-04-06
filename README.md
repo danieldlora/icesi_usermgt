@@ -7,6 +7,19 @@ Flask testing with jenkins
 Install jenkins in a CentOS machine and configure a virtualenv in the folder with the
 required dependencies (A guide will be provided in class)
 
+Take into account to check your sources for the appropiate permissions:
+
+```sh
+$ git ls-tree HEAD
+```
+
+If you find that a script does not have the right permissions you can set the appropiated permissions using the
+following command
+
+```sh
+git update-index --chmod=+x script.sh
+```
+
 ### Setup environment variables
 set an environment variable named USERMGT_SETTINGS and check if the variable was created
 
