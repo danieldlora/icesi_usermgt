@@ -18,7 +18,7 @@ If you find that a script does not have the right permissions you can set the ap
 following command
 
 ```sh
-git update-index --chmod=+x run_tests.sh
+$ git update-index --chmod=+x run_tests.sh
 ```
 
 ### Setup environment variables
