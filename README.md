@@ -10,11 +10,11 @@ required dependencies (A guide will be provided in class)
 Take into account to check your sources for the appropiate permissions:
 
 ```sh
-$ git ls-tree HEAD
 $ git ls-files --stage
+$ git ls-tree HEAD
 ```
 
-If you find that a script does not have the right permissions you can set the appropiated permissions using the
+If you find that run_tests.sh does not have execution permissions you can set the appropiated permissions using the
 following command
 
 ```sh
